@@ -1,4 +1,4 @@
-# upload_project
+# pdf_merge_app
 This Python Django project takes a pdf file as input and shows a loading symbol and then uploads the pdf to the server
 Here the logic is first uploaded file will be at first and second uploaded file will merge at the bottom
 
