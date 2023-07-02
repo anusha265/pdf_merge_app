@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Merge</title>
+</head>
+<body>
+    <h1>PDF Merge</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="pdf_files" multiple>
+        <br><br>
+        <input type="submit" value="Merge PDF">
+    </form>
+</body>
+</html>
